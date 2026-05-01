@@ -4,9 +4,15 @@ import { motion } from "motion/react";
 const projects = [
   {
     title: "Video Delivery Quality & Cost Analytics Platform",
+    period: "April 2026",
     description:
-      "End-to-end analytics platform for video delivery quality, CDN cost governance, and edge capacity analysis. The system combines real YouTube metadata, synthetic CDN delivery logs, PostgreSQL, Python/SQL metric pipelines, A/B testing, bootstrap confidence intervals, Streamlit dashboards, and local LLM-assisted reporting with deterministic statistical diagnostics as the source of truth.",
-    technologies: [
+      "Analytics platform for video delivery quality, CDN cost governance, and edge capacity analysis. The system combines real YouTube metadata, synthetic CDN delivery logs, PostgreSQL, Python/SQL metric pipelines, A/B testing, bootstrap confidence intervals, Streamlit dashboards, and local LLM-assisted reporting with deterministic statistical diagnostics as the source of truth.",
+    highlights: [
+      "Analysed latency, start-up time, rebuffer ratio, cache hit rate, CDN cost, and edge utilisation",
+      "Built treatment-control A/B testing with hypothesis testing and bootstrap confidence intervals",
+      "Used local Ollama for grounded analytics summaries while keeping SQL/Python diagnostics as source of truth"
+    ],
+      stack: [
       "Python",
       "SQL",
       "PostgreSQL",
@@ -19,9 +25,7 @@ const projects = [
       "A/B Testing",
       "Bootstrap CI"
     ],
-    github: "https://github.com/kenny1031/你的repo名",
-    demo: "",
-    category: "Data Science / Analytics Engineering"
+    link: "https://github.com/kenny1031/llm-video-delivery-analytics",
   },
   {
     title: "Airbnb Retrieval Ranking Engine",
