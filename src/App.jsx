@@ -3,6 +3,27 @@ import { motion } from "motion/react";
 
 const projects = [
   {
+    title: "Video Delivery Quality & Cost Analytics Platform",
+    description:
+      "End-to-end analytics platform for video delivery quality, CDN cost governance, and edge capacity analysis. The system combines real YouTube metadata, synthetic CDN delivery logs, PostgreSQL, Python/SQL metric pipelines, A/B testing, bootstrap confidence intervals, Streamlit dashboards, and local LLM-assisted reporting with deterministic statistical diagnostics as the source of truth.",
+    technologies: [
+      "Python",
+      "SQL",
+      "PostgreSQL",
+      "Streamlit",
+      "pandas",
+      "NumPy",
+      "YouTube Data API",
+      "Bash",
+      "Ollama",
+      "A/B Testing",
+      "Bootstrap CI"
+    ],
+    github: "https://github.com/kenny1031/你的repo名",
+    demo: "",
+    category: "Data Science / Analytics Engineering"
+  },
+  {
     title: "Airbnb Retrieval Ranking Engine",
     period: "April 2026",
     description:
